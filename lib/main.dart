@@ -12,14 +12,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Lexus Car',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 91, 124, 255)),
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color.fromARGB(255, 91, 124, 255)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(id: 123),
+      home: const MyHomePage(),
     );
   }
 }
